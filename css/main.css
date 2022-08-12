@@ -1,0 +1,354 @@
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/open-sans-v29-latin-ext_latin-regular.woff2")
+      format("woff2"),
+    url("../fonts/open-sans-v29-latin-ext_latin-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/open-sans-v29-latin-ext_latin-700.woff2") format("woff2"),
+    url("../fonts/open-sans-v29-latin-ext_latin-700.woff") format("woff");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.navbar {
+  max-width: 100%;
+  padding: 15px 0;
+  background-color: #fff;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.flex-box {
+  display: flex;
+  align-items: center;
+}
+
+.nav-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding-left: 350px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #000000;
+  margin-right: 29px;
+}
+
+.nav-link:nth-child(6) {
+  margin-right: 0;
+}
+
+.tel-number {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+  color: #fff;
+  padding: 8px 16px;
+  background: #00bafc;
+  border-radius: 5px;
+}
+
+.hero-section {
+  max-width: 100vw;
+  background: #fff;
+  margin-top: 88px;
+  padding: 140px 0;
+}
+
+.hero-flex-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-title {
+  width: 470px;
+  height: 78px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 130%;
+  margin-top: -10px;
+}
+
+.hero-text {
+  width: 465px;
+  height: 74px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+
+.hero-link {
+  text-decoration: none;
+  color: #fff;
+  background: #00bafc;
+  border-radius: 5px;
+  padding: 8px 16px;
+  margin-top: 24px;
+}
+
+.video-hero {
+  width: 458px;
+  height: 258px;
+  border-radius: 5px;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.services__inner {
+  text-align: center;
+  width: 719px;
+  margin: 0 auto;
+}
+.services_list {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.services-list__item {
+  margin-right: 70px;
+  margin-bottom: 48px;
+  width: 320px;
+  padding: 24px 58px;
+  text-align: center;
+  background: #ffffff;
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+}
+.services-list__item:nth-child(3n) {
+  margin-right: 0;
+}
+.services-list__item:nth-child(5) {
+  margin-right: 0;
+}
+.services-list__title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+  text-align: center;
+}
+.services-list__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.services-list__item::before {
+  content: "";
+  display: block;
+  margin-bottom: 16px;
+  width: 203px;
+  height: 130px;
+  background: url("../img/wipsayt_tuzush.png") center center no-repeat;
+  background-size: centin;
+}
+.services-list__item:nth-child(2)::before {
+  background-image: url(../img/tiligrambot.png);
+}
+.services-list__item:nth-child(3)::before {
+  background-image: url(../img/smm.png);
+}
+.services-list__item:nth-child(4)::before {
+  background-image: url(../img/grafik_diozayin.png);
+}
+.services-list__item:nth-child(5)::before {
+  background-image: url(../img/crm_tizimlar.png);
+}
+.links-ff {
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 56px;
+}
+.buyurtma {
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  background: #00bafc;
+  border-radius: 5px;
+  padding: 8px 16px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  margin-right: 16px;
+}
+
+.xiz-sahifa {
+  display: inline-block;
+  color: #00bafc;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.work__work-titlebox {
+  max-width: 100%;
+  text-align: center;
+  margin-top: 120px;
+}
+
+.work__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 130%;
+  color: #000;
+}
+
+.work__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000;
+}
+
+.wor__work-list {
+  list-style: none;
+}
+
+.work__work-iteam {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: 120px;
+  margin-top: 70px;
+}
+
+.work__work-iteam::before {
+  content: "";
+  display: inline-block;
+  width: 300px;
+  height: 278px;
+  background-image: url(../img/talablar_aniqlash.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.work__work-iteam:nth-child(2n)::before {
+  -webkit-box-ordinal-group: 4;
+  -ms-flex-order: 3;
+  order: 3;
+  margin-left: 70px;
+}
+
+.work__work-iteam:nth-child(1)::before {
+  margin-right: 70px;
+}
+
+.work__work-iteam:nth-child(2)::before {
+  background-image: url(../img/bir_necta_taklif_qilamiz.png);
+}
+
+.work__work-iteam:nth-child(3)::before {
+  background-image: url(../img/loyha_ucun.png);
+  margin-right: 70px;
+}
+
+.work__work-iteam:nth-child(4)::before {
+  background-image: url(../img/alo_sifat.png);
+}
+
+.work__work-iteam:nth-child(5)::before {
+  background-image: url(../img/qulab_quvatlab_boramiz.png);
+  margin-right: 70px;
+}
+
+.work__wrok-iteam-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+  color: #000;
+}
+
+.work__wrok-iteam-text {
+  color: #000;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.work__btn {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.work__buyurtma {
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  background: #00bafc;
+  border-radius: 5px;
+  padding: 8px 16px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
